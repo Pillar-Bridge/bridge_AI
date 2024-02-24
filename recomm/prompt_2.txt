@@ -1,0 +1,44 @@
+```json
+{
+    "situation": "Ordering",
+    "response": [
+        {
+            "response": "Yes, I'm ready to order the [chicken].",
+            "nouns": {
+                "chicken": [
+                    "steak",
+                    "pasta",
+                    "pizza"
+                ]
+            }
+        },
+        {
+            "response": "No, I need a few more minutes.",
+            "nouns": {}
+        },
+        {
+            "response": "Can I see the menu again?",
+            "nouns": {}
+        },
+        {
+            "response": "I'm not sure yet. Can you give me some recommendations?",
+            "nouns": {}
+        },
+        {
+            "response": "I'll have the [chicken] and the [fries].",
+            "nouns": {
+                "chicken": [
+                    "steak",
+                    "pasta",
+                    "pizza"
+                ],
+                "fries": [
+                    "salad",
+                    "soup",
+                    "bread"
+                ]
+            }
+        }
+    ]
+}
+```
