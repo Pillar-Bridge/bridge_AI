@@ -1,7 +1,11 @@
 # Bridge AI
 
-- AI repository with Google Text-to-speech, Google Translate API
-- Build with fastapi
+- Implementation of Bridge's key features using<br>
+  - <b>Google Gemini Pro<br>
+  - Google Cloud Natural Language<br>
+  - Google Cloud TTS</b><br>
+  - LLM model of <b>Google AI studio</b>
+- Build with <b>FastAPI</b>
 
 <br> 
 
