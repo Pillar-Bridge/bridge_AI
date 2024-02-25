@@ -10,6 +10,12 @@
 <br> 
 
 ## How to Install and Run
+
+need:
+```
+python 3.8x
+```
+
 install:
 ```
 git clone https://github.com/Pillar-Bridge/bridge_AI
