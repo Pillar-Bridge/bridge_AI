@@ -170,7 +170,6 @@ db.sqlite3
 instance/
 *.log
 *.csv
-*.json
 *.md
 *.pyc
 *.pyo
