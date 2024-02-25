@@ -26,21 +26,50 @@
 
 ## How to Install and Run
 
-need:
-```
-python 3.8x (at least)
-```
+## Prerequisite
 
-install:
-```
-git clone https://github.com/Pillar-Bridge/bridge_AI
-cd bridge_AI
-python -m venv (venv)
-(venv)\Scripts\activate
-pip install -r requirements.txt
-```
-run:
-```
-cd app
-uvicorn main:app --reload --host=0.0.0.0 --port=5000
-```
+> import google.generativeai as genai
+
+> from google.cloud import speech
+
+> from google.cloud import texttospeech
+
+> from gtts import gTTS 
+
+> import os
+
+> import argparse
+
+> import json
+
+> import datetime
+
+> import time
+
+
+
+### Need python version
+
+> python 3.8x (at least)
+
+
+### Install
+
+> git clone https://github.com/Pillar-Bridge/bridge_AI
+
+> cd bridge_AI
+
+> python -m venv (venv)
+
+> (venv)\Scripts\activate
+
+> pip install -r requirements.txt
+
+
+### Run
+
+> cd app
+
+> uvicorn main:app --reload --host=0.0.0.0 --port=5000
+
+
