@@ -7,8 +7,8 @@ from datetime import datetime
 from pathlib import Path
 import json
 import sys
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from tts.gtts import TextToSpeech
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+from tts.run import TextToSpeech
 
 router = APIRouter(
     prefix="/tts",
