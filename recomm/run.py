@@ -3,10 +3,13 @@
 
 import argparse
 import json
+import os
 # import datetime
 # import time 
 
 import google.generativeai as genai
+
+api_key = os.getenv('api_key')
 
 class get_recommendation:
     def arg_parser(self):
@@ -31,7 +34,7 @@ class get_recommendation:
     
     def generate_responses(self, place, question, lang):
         # Google AI 모델 설정
-        genai.configure(api_key='AIzaSyCKv73cpWOu7mWuvgoMVm3xp__9b4TpzIE')
+        genai.configure(api_key=api_key)
 
         # Generation Config 설정
         generation_config = genai.GenerationConfig(
