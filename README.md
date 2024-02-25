@@ -8,9 +8,9 @@
 - Build with <b>FastAPI</b>
 
 <br>
-## **Service Description
+## Service Description
 
-**DL Flow : Input(Question Audio Data) → Output(Recommendation Audio Data from Gemini pro)
+DL Flow : Input(Question Audio Data) → Output(Recommendation Audio Data from Gemini pro)
 
 ### Question for Other Person
 ![그림1](https://github.com/Pillar-Bridge/bridge_AI/assets/54443308/b5b29ee4-f2cc-4421-b1b0-a65a19e05230)
