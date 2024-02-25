@@ -14,10 +14,12 @@
 - DL Flow : Input(Question Audio Data) → Output(Recommendation Audio Data from Gemini pro)
 
 ### Question for Other Person
-![그림1](https://github.com/Pillar-Bridge/bridge_AI/assets/54443308/b5b29ee4-f2cc-4421-b1b0-a65a19e05230)
+![f3](https://github.com/Pillar-Bridge/bridge_AI/assets/54443308/d08e0c8f-3539-4e1b-99e7-0faadbe6fc78)
+
 
 ### Answering from Gemini with NLP
-![그림2](https://github.com/Pillar-Bridge/bridge_AI/assets/54443308/aab54059-4621-4154-be31-c9901f00cf3a)
+![f5](https://github.com/Pillar-Bridge/bridge_AI/assets/54443308/3516b05a-fc32-4f80-89c0-b38c1c1b631d)
+
 
 
 <br> 
