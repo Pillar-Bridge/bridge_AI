@@ -1,0 +1,31 @@
+{
+    "situation": "Ordering",
+    "response": [
+        {
+            "response": "Yes, I'd like to order a [latte].",
+            "nouns": {
+                "latte": [
+                    "cappuccino",
+                    "espresso",
+                    "americano"
+                ]
+            }
+        },
+        {
+            "response": "No, I'm just looking around.",
+            "nouns": {}
+        },
+        {
+            "response": "Can I see the menu first?",
+            "nouns": {}
+        },
+        {
+            "response": "I'm not sure yet. Can I have a few more minutes?",
+            "nouns": {}
+        },
+        {
+            "response": "I'll have a look at the menu and come back to you.",
+            "nouns": {}
+        }
+    ]
+}
