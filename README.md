@@ -13,7 +13,7 @@
 
 need:
 ```
-python 3.8x
+python 3.8x (at least)
 ```
 
 install:
