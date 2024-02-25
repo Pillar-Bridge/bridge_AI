@@ -1,6 +1,6 @@
 *.log
 .DS_Store
-.env
+*myenv
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
