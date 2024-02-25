@@ -11,7 +11,7 @@ install:
 git clone https://github.com/Pillar-Bridge/bridge_AI
 cd bridge_AI
 python -m venv [venv]
-myenv\Scripts\activate
+[venv]\Scripts\activate
 pip install -r requirements.txt
 ```
 run:
