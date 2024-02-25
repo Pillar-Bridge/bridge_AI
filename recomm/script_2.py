@@ -5,8 +5,12 @@ import argparse
 import json
 import datetime
 import time 
+import os
 
 import google.generativeai as genai
+
+api_key = os.getenv('api_key')
+
 def arg_parser():
     # ArgumentParser 객체 생성
     parser = argparse.ArgumentParser(description="Generate responses based on place, question, and situations")
@@ -29,7 +33,7 @@ def inverted_lang(language):
     
 def generate_responses(place, question, lang):
     # Google AI 모델 설정
-    genai.configure(api_key='AIzaSyCKv73cpWOu7mWuvgoMVm3xp__9b4TpzIE')
+    genai.configure(api_key=api_key)
 
     # Generation Config 설정
     generation_config = genai.GenerationConfig(

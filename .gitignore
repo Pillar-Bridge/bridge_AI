@@ -1,15 +1,7 @@
-/app/nohup.out
 *.log
 *.json
 .DS_Store
-*.mp3
-*.m4a
-*.wav
-*AI_files
-/tortoise-tts
-*tmp.py
-/stt
-*analysis
+.env
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

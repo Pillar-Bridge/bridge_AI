@@ -5,8 +5,10 @@ import os
 import json 
 import datetime
 
+api_key = os.getenv('api_key')
+
 nowadays = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
-genai.configure(api_key='AIzaSyCKv73cpWOu7mWuvgoMVm3xp__9b4TpzIE')
+genai.configure(api_key=api_key)
 
 generation_config = genai.GenerationConfig(
     candidate_count=1,
