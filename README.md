@@ -7,6 +7,36 @@
   - LLM model of <b>Google AI studio</b>
 - Build with <b>FastAPI</b>
 
+## Components
+
+### 1. Language Model
+
+- **Gemini Pro:** High-level human language understanding and communication abilities
+- **Flutter Real-time STT:** Supports real-time voice data input
+- **Google Place API:** Identifies user location information
+
+### 2. Translation and Text-to-Speech Conversion
+
+- **Google Cloud Translation:** Supports 134 languages
+- **Google Cloud TTS:** Provides real-time language-specific responses
+
+### 3. Platform and Server
+
+- **Flutter:** Supports various platforms
+- **Docker-based GPU Server:** Provides fast and stable service
+
+### 4. Additional Update Features (Planned)
+
+- **Customized User Settings:** Provides a personalized communication environment tailored to the user's needs
+- **Data Analysis:** Analyzes user patterns and improves model performance
+
+## Advantages
+
+- **Supports Real-time Context-based Communication:** Provides responses considering user location, voice input, and intent
+- **Multilingual Support:** Expands global user accessibility with support for 134 languages
+- **Personalized Settings:** Offers a communication environment tailored to the user's needs
+- **Data-driven Model Improvement:** Enhances recommendation system performance through continuous data analysis
+
 
 ## How to Install and Run
 
